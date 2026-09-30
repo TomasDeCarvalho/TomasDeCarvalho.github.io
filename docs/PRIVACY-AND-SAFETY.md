@@ -1,7 +1,7 @@
 # Privacy & Safety
 
 ## Público
-Usar preferencialmente a marca `Tomás Carvalho`; evitar o nome civil completo em metadados e cadastros públicos quando não for necessário. Não publicar idade exata de forma persistente.
+Usar preferencialmente a marca `Tomás de Carvalho`; evitar o nome civil completo em metadados e cadastros públicos quando não for necessário. Não publicar idade exata de forma persistente.
 
 ## Nunca publicar
 Endereço residencial; escola; turma; placa de veículo; documentos; números pessoais; localização em tempo real; rotas frequentes; horários recorrentes; informações de saúde; credenciais; dados bancários.

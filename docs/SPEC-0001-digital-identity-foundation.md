@@ -1,9 +1,9 @@
-# SPEC-0001 — Fundação de identidade digital de Tomás Carvalho
+# SPEC-0001 — Fundação de identidade digital de Tomás de Carvalho
 
 Status: PROPOSTA INICIAL
 
 ## Objetivo
-Estabelecer uma presença digital canônica, independente e transferível para Tomás Carvalho, capaz de evoluir de vitrine educativa para portfólio, publicação, comércio e serviços profissionais.
+Estabelecer uma presença digital canônica, independente e transferível para Tomás de Carvalho, capaz de evoluir de vitrine educativa para portfólio, publicação, comércio e serviços profissionais.
 
 ## Invariantes
 1. O domínio é o identificador canônico; redes sociais não são a origem da identidade.

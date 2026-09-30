@@ -1,8 +1,11 @@
 # Tomás de Carvalho — Identidade
 
-- Nome público: `Tomás de Carvalho`
+- Identidade: `Tomás de Carvalho Fernandes` (uso interno/custódia; não publicar o nome civil completo quando a marca pública bastar)
+- Nome público: `Tomás de Carvalho` (marca canônica em site, metadados e cadastros públicos)
+- Workspace canônico: `/home/andre/tomas-de-carvalho` (owner independente; fora da árvore iLúmino)
+- GitHub Personal Account: `TomasDeCarvalho` · repo `TomasDeCarvalho/TomasDeCarvalho.github.io`
 - Domínio futuro: `tomasdecarvalho.com` (provisório: `https://tomasdecarvalho.github.io/`)
-- GitHub: `TomasDeCarvalho` · repo `TomasDeCarvalho/TomasDeCarvalho.github.io`
+- Decisão canônica: owner independente; `ilumino-workspace` é referência metodológica, não parent workspace (ver `docs/adr/ADR-0001-independencia-e-referencia-metodologica.md`)
 - Propósito: registrar construção prática com método simples e honesto.
 - Missão: criar → experimentar → aprender → explicar → oferecer.
 - Princípios: bancada antes de vitrine; medida antes de adjetivo; erro documentado vale mais que acerto exagerado; privacidade por padrão.
