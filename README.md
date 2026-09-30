@@ -1,22 +1,21 @@
-# Tomás Carvalho — Digital Identity Foundation
+# Tomás de Carvalho — Identidade digital independente
 
-Projeto independente para o site canônico de Tomás Carvalho.
+Site canônico provisório: `https://tomasdecarvalho.github.io/`
+Domínio futuro: `tomasdecarvalho.com` (sem compra nesta fase).
+GitHub: `TomasDeCarvalho/TomasDeCarvalho.github.io` · SSH: `github-tomas`.
 
 ## Princípios
-- domínio próprio e identidade independente;
-- zero dependências de framework na fundação inicial;
-- site é a fonte canônica, redes sociais são canais satélites;
-- dados pessoais mínimos;
-- contatos, contratos, pagamentos e publicação sob custódia adulta enquanto necessário;
-- autoridade construída por evidência de projetos reais;
-- migração futura de custódia sem trocar domínio, marca ou histórico.
+Método antes de vitrine; evidência antes de adjetivo; privacidade por padrão;
+custódia adulta transparente; site como fonte canônica.
 
 ## Estrutura
-- `index.html`: primeira vitrine pública;
-- `assets/styles.css`: apresentação;
-- `content/`: catálogo editorial;
-- `docs/SPEC-0001-digital-identity-foundation.md`: contrato inicial;
-- `docs/PRIVACY-AND-SAFETY.md`: regras obrigatórias.
+- `index.html` — Início, Projetos, Ideias, Produtos, Sobre, Contato, Links
+- `assets/styles.css` — design system B (bancada/oficina)
+- `assets/favicon.svg` — favicon “T” geométrico
+- `content/catalog.json` — catálogo editorial
+- `docs/IDENTITY.md` · `docs/ROADMAP.md` · `docs/PRIVACY-AND-SAFETY.md` · `docs/ARCHITECTURE.md`
+- `.local/` — config operacional privada (gitignored, sem segredos)
 
-## Publicação
-Hospedar em domínio próprio. Não acoplar a identidade ao provedor de hospedagem. DNS e domínio devem permanecer sob custódia dos responsáveis até a transferência formal.
+## Operação
+Autoria: operador adulto (repo-local). Remote `origin` via SSH exclusiva.
+Sem analytics, sem tracking, sem checkout. Contato supervisionado.
