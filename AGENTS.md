@@ -16,6 +16,7 @@ Owner independente. Workspace canônico: `/home/andre/tomas-de-carvalho`.
 - `ilumino-workspace` é referência metodológica, não parent workspace: nenhum runtime/build depende dele, nenhum symlink de governança, nenhum ownership Git compartilhado, nenhum backlog ou segredo compartilhado, nenhuma sincronização automática.
 - Sem Organization, sem repositório central familiar, sem projeto de governança, sem dependência compartilhada com Aurora ou Matias. Não escrever em `/home/andre/ilumino-workspace` nem inspecionar projetos de Aurora/Matias além do estritamente necessário.
 - Decisão vigente: `docs/adr/ADR-0001-independencia-e-referencia-metodologica.md`.
+- Doutrina de hospedagem (ver `docs/adr/ADR-0002-hosting-independente-e-transicao.md`): `GITHUB != PRODUCTION_HOSTING`; GitHub Pages é publicação transitória, não endpoint canônico; destino é hosting independente e substituível + `tomasdecarvalho.com`.
 
 ## Ordem de leitura
 

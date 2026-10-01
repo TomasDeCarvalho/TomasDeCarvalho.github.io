@@ -1,8 +1,9 @@
 # Tomás de Carvalho — Identidade digital independente
 
-Site canônico provisório: `https://tomasdecarvalho.github.io/`
-Domínio futuro: `tomasdecarvalho.com` (sem compra nesta fase).
-GitHub: `TomasDeCarvalho/TomasDeCarvalho.github.io` · SSH: `github-tomas`.
+Publicação provisória (transitória, não canônica): `https://tomasdecarvalho.github.io/`
+Domínio soberano futuro: `tomasdecarvalho.com` (sem compra nesta fase).
+GitHub (versionamento/backup, não hospedagem canônica): `TomasDeCarvalho/TomasDeCarvalho.github.io` · SSH: `github-tomas`.
+Destino: hosting independente e substituível (ver `docs/adr/ADR-0002-hosting-independente-e-transicao.md`).
 
 ## Princípios
 Método antes de vitrine; evidência antes de adjetivo; privacidade por padrão;

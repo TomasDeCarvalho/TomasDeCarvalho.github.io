@@ -3,10 +3,10 @@
 - Tipo: site estático, HTML + CSS, zero framework, zero build, zero analytics, zero cookies.
 - Entrada: `index.html`; estilos: `assets/styles.css`; favicon: `assets/favicon.svg`.
 - Catálogo editorial: `content/catalog.json`.
-- Metadata: canonical `https://tomasdecarvalho.github.io/`, Open Graph básico, `robots.txt`, `sitemap.xml`.
+- Metadata: canonical `https://tomasdecarvalho.github.io/` e Open Graph básico descrevem a publicação provisória vigente (transitória, ver ADR-0002); `robots.txt`, `sitemap.xml`.
 - Config operacional privada: `.local/` (gitignored) + mapa central `~/.config/familia-digital/account-map.json`.
 - Remoto: `origin` → `git@github-tomas:TomasDeCarvalho/TomasDeCarvalho.github.io.git` (SSH exclusiva).
-- Hospedagem provisória: GitHub Pages do repo `<user>.github.io`; futura: domínio próprio.
+- Publicação provisória (transitória, não canônica): GitHub Pages do repo `<user>.github.io`, mantido no ar até hospedagem substituta validada; destino: hosting independente + domínio próprio `tomasdecarvalho.com` (ver ADR-0002 e SPEC-0002).
 - Isolamento: repo, remote, SSH, Chrome profile e Google próprios; nada compartilhado com irmãos.
 
 ## Independência e referência metodológica (canônico)
@@ -18,3 +18,11 @@
 - GitHub Personal Account própria: `TomasDeCarvalho`, repo alvo `TomasDeCarvalho/TomasDeCarvalho.github.io`.
 - Sem Organization, sem repositório central familiar, sem quarto projeto de governança, sem dependência compartilhada com Aurora ou Matias.
 - Decisão registrada em `docs/adr/ADR-0001-independencia-e-referencia-metodologica.md`.
+
+## Hospedagem independente (canônico, ver ADR-0002 e SPEC-0002)
+
+- `GITHUB != PRODUCTION_HOSTING`: GitHub (`TomasDeCarvalho`) é remote versionado, backup remoto, continuidade e prova histórica — não plataforma canônica de hospedagem.
+- `GITHUB_PAGES != CANONICAL_PUBLIC_ENDPOINT`: o Pages publicado é prova técnica transitória; não orienta arquitetura futura; desativação só após produção independente comprovada + decisão humana explícita; sem downtime deliberado.
+- `HOSTING = REPLACEABLE_DEPLOYMENT_INFRASTRUCTURE`: hospedagem de produção independente, substituível, artefatos estáticos portáteis (sem lock-in), pronta para `tomasdecarvalho.com` sem redesign estrutural; deploy desacoplado (CLI/upload direto sempre possível, sem GitHub obrigatório).
+- Domínio futuro `tomasdecarvalho.com`: endpoint soberano, ainda não comprado; arquitetura já pronta para adotá-lo.
+- Sem backend/CMS/framework/analytics: nenhuma necessidade atual comprovada.
