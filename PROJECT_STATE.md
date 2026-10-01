@@ -1,7 +1,7 @@
 # Estado atual — Tomás de Carvalho
 
-Atualizado: 2026-09-30
-Status: `IDENTIDADE-V1 / SITE-ESTATICO-V1 / DIRETRIZ-CANONICA-REGISTRADA`
+Atualizado: 2026-10-01
+Status: `IDENTIDADE-V1 / SITE-PUBLICADO / PAGES-LIVE`
 
 ## Objetivo atual
 
@@ -11,7 +11,8 @@ Manter a identidade digital independente de Tomás de Carvalho com site estátic
 
 - Site estático v1 no ar como fonte: `index.html` + `assets/` + `content/catalog.json`, zero framework, zero build, zero analytics.
 - Diretriz canônica vigente: owner independente em `/home/andre/tomas-de-carvalho`; `ilumino-workspace` como referência metodológica, sem acoplamento (ver ADR-0001).
-- Remote `origin` via SSH exclusiva `github-tomas` para `TomasDeCarvalho/TomasDeCarvalho.github.io`; branch `main`; sem upstream configurado; sem push realizado nesta missão salvo autorização.
+- Site publicado em `https://tomasdecarvalho.github.io/` (HTTP 200, conteúdo canônico); repo `TomasDeCarvalho/TomasDeCarvalho.github.io` (PUBLIC, Personal Account, sem init); chave SSH `tomas-github` (`SHA256:zEShGSH6eCclbjNjxX1w+6vJ+wAXF89QYqRe1Z3Det8`); `main` com upstream `origin/main`, `local HEAD == origin/main` (`9fc992a` no push inicial).
+- Remote `origin` via SSH exclusiva `github-tomas`; branch `main` com upstream configurado.
 - `.local/` operacional e gitignored; nenhum segredo versionado.
 
 ## Baseline
@@ -25,16 +26,15 @@ Manter a identidade digital independente de Tomás de Carvalho com site estátic
 
 ## Pendências priorizadas
 
-- Publicação inicial (push/Pages): somente quando autenticação/SSH/remoto estiverem prontos, em missão própria.
 - Próximo conteúdo real: primeiro experimento da bancada (Fase 1 do roadmap).
 
 ## Próximo passo
 
-Concluir e commitar localmente esta missão documental; depois validar push em missão separada se autorizado.
+Primeiro experimento da bancada (Fase 1 do roadmap), em missão própria.
 
 ## Blockers / decisões abertas
 
-- Nenhum blocker técnico para o commit local. Push segue bloqueado por regra da missão se exigir autenticação, criação de repo, cadastro SSH ou intervenção humana.
+- Nenhum blocker técnico. Pendência não bloqueante: `HUMAN_ACTION_REQUIRED_SECURE_SSH_STORAGE` (hardening de custódia da chave, missão posterior).
 
 ## Referências
 
