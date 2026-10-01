@@ -1,0 +1,9 @@
+{
+  "brand": "Tomás de Carvalho",
+  "tagline": "Uma bancada para criar, mostrar e oferecer.",
+  "domain_future": "tomasdecarvalho.com",
+  "provisional_url": "https://tomasdecarvalho.github.io/",
+  "github": "TomasDeCarvalho/TomasDeCarvalho.github.io",
+  "status": "bancada-v1",
+  "note": "Canonical sob SPEC-0003. Arrays vazios = estado honesto, sem conteúdo inventado."
+}

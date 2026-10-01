@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "status": "empty",
+  "note": "Bancada em preparação. Primeiro experimento documentado de ponta a ponta será a entrada 001 (SPEC-0003 §4).",
+  "statuses": ["IDEIA", "EM TESTE", "EM CONSTRUÇÃO", "PUBLICADO"],
+  "items": []
+}

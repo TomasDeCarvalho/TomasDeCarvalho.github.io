@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "status": "partial",
+  "note": "Só canais reais com URL existente. Canal ausente = entrada inactive, sem link publicado (SPEC-0003 §4).",
+  "channels": [
+    { "id": "github", "label": "GitHub", "desc": "Códigos e projetos", "url": "https://github.com/TomasDeCarvalho", "active": true },
+    { "id": "youtube", "label": "YouTube", "desc": "Vídeos e projetos", "url": null, "active": false },
+    { "id": "instagram", "label": "Instagram", "desc": "Bastidores e fotos", "url": null, "active": false },
+    { "id": "tiktok", "label": "TikTok", "desc": "Conteúdos rápidos", "url": null, "active": false }
+  ]
+}
