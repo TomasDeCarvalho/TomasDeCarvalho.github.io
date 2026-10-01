@@ -1,46 +1,46 @@
 # Estado atual — Tomás de Carvalho
 
 Atualizado: 2026-10-01
-Status: `IDENTIDADE-V1 / PAGES-TRANSITORIO / HOSTING-FOUNDATION-PARTIAL`
+Status: `BANCADA-V1 / PAGES-TRANSITORIO / HOSTING-DEFERRED`
 
 ## Objetivo atual
 
-Manter a identidade digital independente de Tomás de Carvalho com site estático e disciplina documental proporcional ao estágio, agora com arquitetura corrigida: GitHub como versionamento/backup, Pages como publicação transitória, hosting independente como destino.
+Site personalizado Bancada v1 construído (`CUSTOM_SITE_BANCADA_V1`): produto próprio, portátil e hosting-agnostic, com vitrine sem checkout, bancada/blog/hub estruturais e estados honestos — sem conteúdo real inventado.
 
 ## Estado atual
 
-- Site estático v1 preservado: `index.html` + `assets/` + `content/catalog.json`, zero framework, zero build, zero analytics. Produto/site sem alteração material nesta missão.
-- Diretriz canônica vigente: owner independente em `/home/andre/tomas-de-carvalho`; `ilumino-workspace` como referência metodológica, sem acoplamento (ver ADR-0001).
-- Doutrina de hospedagem vigente (ver ADR-0002 + SPEC-0002): `GITHUB != PRODUCTION_HOSTING`; `GITHUB_PAGES != CANONICAL_PUBLIC_ENDPOINT`; `HOSTING = REPLACEABLE_DEPLOYMENT_INFRASTRUCTURE`; domínio soberano futuro `tomasdecarvalho.com` (não comprado).
-- GitHub Pages segue publicado em `https://tomasdecarvalho.github.io/` (HTTP 200 em 2026-10-01) como prova técnica transitória; sem downtime deliberado; desativação só após produção independente + decisão humana explícita.
-- Shortlist de hosting (gratuitos, suficientes, materialmente equivalentes): Netlify Free vs Cloudflare Pages Free. Vercel Hobby depriorizado (restrição não comercial vs futura Prateleira); VPS/infra reaproveitada rejeitada (superdimensionada).
+- Site Bancada v1: homepage acabada + 5 páginas estáticas (`/produtos/`, `/bancada/`, `/blog/`, `/links/`, `/sobre/`); HTML semântico + CSS design system B + JS vanilla só p/ menu mobile; zero framework/build/analytics/tracking/cookies; página mais pesada 21,6 KB, zero requisições externas.
+- Conteúdo desacoplado: `content/site.json`, `products.json`, `projects.json`, `posts.json`, `links.json` (vazios/honestos; `catalog.json` removido por supersessão); canais reais só GitHub, demais inativos sem URL falsa.
+- Comércio = vitrine/arquitetura de catálogo; checkout/pagamento/estoque/backend fora de escopo. Blog estrutural, 0 artigos. Contato supervisionado sem e-mail publicado.
+- Doutrina vigente (ADR-0002 + SPEC-0002): GitHub = versionamento/backup; Pages = transitório (segue no ar, sem downtime deliberado); hosting definitivo = `DEFERRED`; domínio `tomasdecarvalho.com` não comprado.
 - Remote `origin` via SSH exclusiva `github-tomas`; branch `main` com upstream configurado.
 - `.local/` operacional e gitignored; nenhum segredo versionado.
 
 ## Baseline
 
-- Branch `main` · HEAD inicial da missão `1ec8220` (`docs: mark initial sovereign publication (repo, SSH, Pages live)`).
+- Branch `main` · HEAD inicial da missão `df4e873` (`docs: hosting foundation — GitHub as versioning, Pages as transitory`).
 
 ## Spec/ADR ativa
 
 - [ADR-0001](docs/adr/ADR-0001-independencia-e-referencia-metodologica.md) — independência e referência metodológica (canônica).
-- [ADR-0002](docs/adr/ADR-0002-hosting-independente-e-transicao.md) — GitHub como versionamento; hospedagem independente como destino (fundação; seleção N vs C pendente).
+- [ADR-0002](docs/adr/ADR-0002-hosting-independente-e-transicao.md) — GitHub como versionamento; hospedagem independente como destino (seleção N vs C pendente).
 - [SPEC-0001](docs/SPEC-0001-digital-identity-foundation.md) — fundação de identidade digital.
-- [SPEC-0002](docs/SPEC-0002-fundacao-hospedagem-independente.md) — fundação de hospedagem independente (ativa; seleção pendente).
+- [SPEC-0002](docs/SPEC-0002-fundacao-hospedagem-independente.md) — fundação de hospedagem independente.
+- [SPEC-0003](docs/SPEC-0003-site-bancada-v1.md) — site personalizado Bancada v1 (ativa; produto).
 
 ## Pendências priorizadas
 
-- `HUMAN_DECISION_REQUIRED_HOSTING_N_VS_C`: escolher Netlify Free ou Cloudflare Pages Free antes da missão de deploy (alternativas, diferenças e boundaries em ADR-0002).
-- Próximo conteúdo real: primeiro experimento da bancada (Fase 1 do roadmap), já orientado ao hosting escolhido.
-- Não bloqueante: `HUMAN_ACTION_REQUIRED_SECURE_SSH_STORAGE` (hardening de custódia da chave, missão posterior).
+- `HUMAN_DECISION_REQUIRED_HOSTING_N_VS_C`: Netlify Free vs Cloudflare Pages Free (ADR-0002).
+- Próximo conteúdo real: entrada 001 da Bancada (Fase 1), primeiro produto real, primeiros canais.
+- Não bloqueante: `HUMAN_ACTION_REQUIRED_SECURE_SSH_STORAGE`.
 
 ## Próximo passo
 
-Decisão humana N vs C; depois missão de site personalizado da Bancada com deploy independente no hosting escolhido.
+Conteúdo real (Fase 1) + decisão de hospedagem/comércio em missões próprias. Próxima missão mínima: registrar a entrada 001 da Bancada.
 
 ## Blockers / decisões abertas
 
-- Nenhum blocker técnico. Decisão humana aberta: hosting N vs C (não inventada nesta missão).
+- Nenhum blocker técnico. Decisão humana aberta: hosting N vs C.
 
 ## Referências
 

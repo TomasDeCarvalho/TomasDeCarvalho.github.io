@@ -6,6 +6,9 @@ Site próprio publicado via GitHub Pages como prova técnica transitória (não 
 ## Fase 0.5 — Fundação de hospedagem independente (esta missão)
 Arquitetura corrigida: GitHub reclassificado como versionamento/backup, Pages como transitório, hosting independente como destino (ADR-0002, SPEC-0002). Shortlist: Netlify Free vs Cloudflare Pages Free — decisão humana pendente. Transição futura: escolher → deploy independente → validar candidato → associar `tomasdecarvalho.com` (compra em missão própria) → provar produção → só então retirar o Pages da função pública. Sem downtime deliberado; nunca duas identidades canônicas.
 
+## Fase 0.6 — Site Bancada v1 (construído em `CUSTOM_SITE_BANCADA_V1`)
+Homepage acabada + 5 páginas estáticas, vitrine sem checkout, bancada/blog/hub estruturais com estados honestos, SPEC-0003. Sem conteúdo real inventado.
+
 ## Fase 1 — Bancada
 Primeiro experimento documentado: hipótese, material, tentativa, medida, conclusão.
 

@@ -10,10 +10,12 @@ Método antes de vitrine; evidência antes de adjetivo; privacidade por padrão;
 custódia adulta transparente; site como fonte canônica.
 
 ## Estrutura
-- `index.html` — Início, Projetos, Ideias, Produtos, Sobre, Contato, Links
+- `index.html` — homepage (hero, vitrine, hub, bancada, blog, categorias, sobre-resumo)
+- `produtos/` · `bancada/` · `blog/` · `links/` · `sobre/` — páginas estáticas próprias
 - `assets/styles.css` — design system B (bancada/oficina)
+- `assets/site.js` — menu mobile (único JS, sem dependências)
 - `assets/favicon.svg` — favicon “T” geométrico
-- `content/catalog.json` — catálogo editorial
+- `content/site.json` · `products.json` · `projects.json` · `posts.json` · `links.json` — dados versionáveis (vazios = honesto)
 - `docs/IDENTITY.md` · `docs/ROADMAP.md` · `docs/PRIVACY-AND-SAFETY.md` · `docs/ARCHITECTURE.md`
 - `.local/` — config operacional privada (gitignored, sem segredos)
 

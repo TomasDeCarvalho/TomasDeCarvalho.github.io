@@ -1,8 +1,9 @@
 # Architecture — Tomás de Carvalho
 
-- Tipo: site estático, HTML + CSS, zero framework, zero build, zero analytics, zero cookies.
-- Entrada: `index.html`; estilos: `assets/styles.css`; favicon: `assets/favicon.svg`.
-- Catálogo editorial: `content/catalog.json`.
+- Tipo: site estático multipágina, HTML semântico + CSS + JS vanilla mínimo (só menu mobile), zero framework, zero build, zero analytics, zero cookies.
+- Páginas: `/` (hero, vitrine, hub, bancada, blog, categorias, sobre-resumo), `/produtos/`, `/bancada/`, `/blog/`, `/links/`, `/sobre/`; slugs individuais futuros (`/produtos/<slug>/`, `/bancada/<slug>/`, `/blog/<slug>/`).
+- Estilos: `assets/styles.css` (design system B); JS: `assets/site.js`; favicon: `assets/favicon.svg`; arte e placeholders: SVG/CSS próprios.
+- Conteúdo desacoplado: `content/site.json`, `content/products.json`, `content/projects.json`, `content/posts.json`, `content/links.json` (arrays vazios = estado honesto; `content/catalog.json` removido por supersessão em `CUSTOM_SITE_BANCADA_V1`).
 - Metadata: canonical `https://tomasdecarvalho.github.io/` e Open Graph básico descrevem a publicação provisória vigente (transitória, ver ADR-0002); `robots.txt`, `sitemap.xml`.
 - Config operacional privada: `.local/` (gitignored) + mapa central `~/.config/familia-digital/account-map.json`.
 - Remoto: `origin` → `git@github-tomas:TomasDeCarvalho/TomasDeCarvalho.github.io.git` (SSH exclusiva).
